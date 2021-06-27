@@ -3,51 +3,113 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <link rel="stylesheet" href="style.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@100;300;400;600;700&display=swap" rel="stylesheet">
   
-  <!-- Fonts -->
-  <link rel="preconect" href="https://fonts.gstatic.com">
-  <link href="https:fonts.googleapis.com/css2family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
-
-  <title>Frontend Mentor | Profile card component</title>
+  <title>Frontend Mentor | Sunnyside agency landing page</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <link rel="stylesheet" href="style.css">
+  <style>
+    .attribution { font-size: 15px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
 </head>
 <body>
-  <section class="main">
-    <div class="card">
-      <div class="card-header"></div>
-      <div class="card-body">
-        <div class="img-holder">
-          <img src="images/image-victor.jpg" alt="">
-        </div>
-        <h2 class="name-age">
-          Victor Crest
-          <span class="age">26</span>
-        </h2>
-        <h3 class="city">London</h3>
+  <nav class="nav-bar">
+    <ul>
+      <li class="left-nav"><a href="#">Sunnyside</a></li>
+      <li class="lista"><a class="listb" href="#">About</a></li>
+      <li class="lista"><a class="listb" href="#">Services</a></li>
+      <li class="lista"><a class="listb" href="#">Projects</a></li>
+      <li class="lista"><a class="listb active" href="#">Contact</a></li>
+    </ul>
+  </nav>
+  <header class="main">
+    <div class="center-text">
+      <h1 class="text1">We are creatives</h1>
+    </div>
+  </header>
+  <section class="containers">
+    <div class="center-text box">
+      <h2>Transform your brand</h2>
+
+      <p class="box-text">We are a full-service creative agency specializing in helping brands grow fast. 
+      Engage your clients through compelling visuals that do most of the marketing for you.</p>
+
+      <a class="link" href="#">Learn more</a>
+    </div>
+    <div>
+      <img src="images/desktop/image-transform.jpg" alt="">
+    </div>
+    <div>
+      <img src="images/desktop/image-stand-out.jpg" alt="">
+    </div>
+    <div class="center-text box">
+      <h2>Stand out to the right audience</h2>
+
+      <p class="box-text">Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places.</p>
+
+      <a class="link" href="#">Learn more</a>
+    </div>
+    <div class="img-text">
+      <img src="images/desktop/image-graphic-design.jpg" alt="">
+      <div class="text-block">
+        <h3>Graphic design</h3>
+        <p>Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.</p>
       </div>
-      <div class="card-footer">
-        <div class="item">
-          <h4 class="vlaue">80K</h4>
-          <h5 class="key">Followers</h5>
-        </div>
-        <div class="item">
-          <h4 class="vlaue">803K</h4>
-          <h5 class="key">Likes</h5>
-        </div>
-        <div class="item">
-          <h4 class="vlaue">1.4K</h4>
-          <h5 class="key">Photos</h5>
-        </div>
+    </div>
+    <div class="img-text">
+      <img src="images/desktop/image-photography.jpg" alt="">
+      <div class="text-block">
+        <h3>Photography</h3>
+        <p>Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
       </div>
     </div>
   </section>
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Roderick</a>.
-  </div>
+  <section class="client-section">
+
+    <h4>Client testimonials</h4>
+
+    <div class="card-section">
+      <div class="cards">
+        <div class="client-imgs"><img class="client-img" src="images/image-emily.jpg" alt=""></div>
+        <p>We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</p>
+        <h5>Emily R.</h5>
+        <p>Marketing Director</p>
+      </div>
+      <div class="cards">
+        <div class="client-imgs"><img class="client-img" src="images/image-thomas.jpg" alt=""></div>
+        <p>Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.</p>
+        <h5>Thomas S.</h5>
+        <p>Chief Operating Officer</p>
+      </div>
+      <div class="cards">
+        <div class="client-imgs"><img class="client-img" src="images/image-jennie.jpg" alt=""></div>
+        <p>Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</p>
+        <h5>Jennie F.</h5>
+        <p>Business Owner</p>
+      </div>
+    </div>
+
+  </section>
+  <section class="images-section">
+    <img class="images00" src="images/desktop/image-gallery-orange.jpg" alt=""><img class="images00" src="images/desktop/image-gallery-cone.jpg" alt=""><img class="images00" src="images/desktop/image-gallery-sugarcubes.jpg" alt="">
+  </section>
+  <footer>
+    <li class="btm-div"><a class="btm-link" href="#">Sunnyside</a></li>
+    <ul class="btm-divs">
+      <li class="btm-l"><a class="btm-links" href="#">About</a></li>
+      <li class="btm-l"><a class="btm-links" href="#">Services</a></li>
+      <li class="btm-l"><a class="btm-links" href="#">Projects</a></li>
+      <li class="btm-l"><a class="btm-links" href="#">Contact</a></li>
+    </ul>
+    <div class="attribution bottom-link">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a target="_blank" href="https://rhollings.github.io/personal_portfolio/">Roderick Hollingsworth</a>.
+    </div>
+  </footer>
 </body>
 </html>
