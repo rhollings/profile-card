@@ -17,6 +17,12 @@
     z-index: 1;
 }
 
+@media only screen and (max-width: 700px) {
+    .nav-bar, .text1 {
+      display: none;
+    }
+}
+
 ul {
     list-style-type: none;
     overflow: hidden;
@@ -69,7 +75,7 @@ a {
 
 .main {
     height: 100vh;
-    background: url('images/image-header.jpg');
+    background: url('images/desktop/image-header.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
