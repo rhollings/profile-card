@@ -82,7 +82,7 @@ a {
 
 .main {
     height: 100vh;
-    background: url('images/desktop/image-header.jpg');
+    background: url('images/image-header.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
