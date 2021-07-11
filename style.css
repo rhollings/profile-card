@@ -203,9 +203,6 @@ h4 {
     .card-section {
         grid-template-columns: auto;
     }
-    .client-section {
-        position: ;
-    }
 }
 
 .cards {
@@ -240,11 +237,13 @@ footer {
     position: relative;
 }
 
+/* 
 @media only screen and (max-width: 650px) {
     footer {
-        
+       How to fix?? 
     }
 }
+*/
 
 .bottom-link {
     position: absolute;
