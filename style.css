@@ -9,6 +9,10 @@
     font-family: Fraunces, sans-serif;
 }
 
+nav {
+    transition: 400ms ease-in-out;
+}
+
 .nav-bar {
     position: fixed;
     display: flex;
@@ -17,8 +21,13 @@
     z-index: 1;
 }
 
-#navbar {
-    transition: 400ms ease-in-out;
+.navbar-top {
+    position: fixed;
+    display: flex;
+    height: 10vh;
+    width: 100%;
+    z-index: 1;
+    background-color: #111;
 }
 
 @media only screen and (max-width: 900px) {
@@ -39,6 +48,7 @@ ul {
 
 li {
     float: left;
+    list-style-type: none;
 }
 
 a {
@@ -53,9 +63,12 @@ a {
     padding: 14px 20px;
 }
 
+/* 
+the padding is bad
+
+*/
 .left-nav {
     margin-top: 1rem;
-    padding-right: 45rem;
     padding-left: 2rem;
     text-transform: lowercase;
     font-size: 30px;
@@ -82,7 +95,7 @@ a {
 
 .main {
     height: 100vh;
-    background: url('images/image-header.jpg');
+    background: url('images/desktop/image-header.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
