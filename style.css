@@ -27,7 +27,7 @@ nav {
     height: 10vh;
     width: 100%;
     z-index: 1;
-    background-color: #111;
+    background-color: rgb(7, 192, 253);
 }
 
 @media only screen and (max-width: 900px) {
@@ -202,6 +202,15 @@ h4 {
     text-transform: uppercase;
 }
 
+h5 {
+    margin: 1.5rem;
+    font-size: 20px;
+}
+
+.title {
+    color: rgb(136, 132, 132);
+}
+
 .client-section {
     height: 100vh;
     width: 100vw;
@@ -233,6 +242,11 @@ h4 {
 
 .client-img {
     border-radius: 5rem;
+}
+
+.client-txt {
+    color: rgb(119, 115, 115);
+    font-size: 15px;
 }
 
 /* Images Section */
