@@ -1,10 +1,9 @@
-var prevScrollpos = window.pageYOffset;
-window.onscroll = function() {
-var currentScrollPos = window.pageYOffset;
-  if (prevScrollpos > currentScrollPos) {
-    document.getElementById("navbar").style.top = "0";
+window.onscroll = function() {myFunction()};
+
+function myFunction() {
+  if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 150) {
+    document.getElementById("navbar").className = "navbar-top";
   } else {
-    document.getElementById("navbar").style.top = "-70px";
+    document.getElementById("navbar").className = "nav-bar";
   }
-  prevScrollpos = currentScrollPos;
 }
