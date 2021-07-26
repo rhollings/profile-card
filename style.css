@@ -31,7 +31,7 @@ nav {
 }
 
 @media only screen and (max-width: 900px) {
-    .nav-bar {
+    .nav-bar .navbar-top {
       display: none;
     }
     .text1 {
@@ -95,7 +95,7 @@ the padding is bad
 
 .main {
     height: 100vh;
-    background: url('images/image-header.jpg');
+    background: url('images/desktop/image-header.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -188,7 +188,7 @@ h2 {
     bottom: 20px;
     right: 20px;
     text-align: center;
-    z-index: 5;
+    z-index: 0;
 }
 
 /* Client Testimomials */
@@ -263,14 +263,6 @@ footer {
     background-color: rgb(89, 216, 189);
     position: relative;
 }
-
-/* 
-@media only screen and (max-width: 650px) {
-    footer {
-       How to fix?? 
-    }
-}
-*/
 
 .bottom-link {
     position: absolute;
