@@ -1,5 +1,7 @@
 # Frontend Mentor - Easybank landing page
 
+<a href="https://sleepy-agnesi-fe89c1.netlify.app/" target="_blank">View Here</a>
+
 ![Design preview for the Easybank landing page coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
